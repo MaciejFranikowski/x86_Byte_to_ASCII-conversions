@@ -10,6 +10,9 @@ Output would be: '00110011', '00100000' ('3' '0') and the ascii space code.
 Comments and general code is in polish.
 
 Typical use case:
+
 as conversions.s -o conversions.o
+
 ld conversions.o -o conversions
+
 ./conversions < input_numbers
