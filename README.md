@@ -6,3 +6,10 @@ The two output ascii bytes, have the same representation in binary, as the input
 EXAMPLE:
 If the read byte is the ascii code of '0', it'd contatin bits '00110000'. It's ascii code is: 30.
 Output would be: '00110011', '00100000' ('3' '0') and the ascii space code.
+
+Comments and general code is in polish.
+
+Typical use case:
+as conversions.s -o conversions.o
+ld conversions.o -o conversions
+./conversions < input_numbers
